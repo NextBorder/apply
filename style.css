@@ -96,7 +96,7 @@ body {
   width: 90%;
   max-width: 1200px;
   z-index: 1000;
-  padding: 18px 32px;
+  padding: 24px 48px;
 }
 
 .nav-container {
@@ -107,7 +107,7 @@ body {
 }
 
 .brand-logo img {
-  height: 50px;
+  height: 80px;
   display: block;
 }
 
