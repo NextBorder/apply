@@ -107,7 +107,7 @@ body {
 }
 
 .brand-logo img {
-  height: 60px;
+  height: 70px;
   display: block;
 }
 
@@ -140,28 +140,28 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 15px 30px rgba(28, 63, 170, 0.35);
 }
-
 .btn-whatsapp {
   background-color: #25d366;
   color: var(--white);
 }
-.btn-whatsapp:hover {
-  background-color: #1eb957;
-  transform: translateY(-2px);
+.btn-whatsapp {
+  background-color: var(--whatsapp-color);
+  color: #ffffff;
 }
 
-.btn-icon {
+{
   background: transparent;
-  border: 1px solid var(--glass-border);
-  width: 42px;
-  height: 42px;
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  font-size: 1.6rem; /* Increases icon size */
+  width: 48px;       /* Increases button container width */
+  height: 48px;      /* Increases button container height */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: var(--text-dark);
-  transition: var(--transition);
+  transition: all 0.2s ease;
 }
 
 /* --- Hero Section --- */
