@@ -106,7 +106,7 @@ body {
 }
 
 .brand-logo img {
-  height: 70px;
+  height: 60px;
   display: block;
 }
 
@@ -143,6 +143,21 @@ body {
 .btn-whatsapp {
   background-color: #25d366;
   color: var(--white);
+  /* Prevent text from wrapping onto a second line */
+  white-space: nowrap; 
+
+  /* Fluid font sizing: min 0.75rem (~12px) on phones, scales up to 0.95rem (~15px) on desktop */
+  font-size: clamp(0.75rem, 3vw, 0.95rem); 
+
+  /* Adjust padding so it fits comfortably on small screens */
+  padding: 10px 16px; 
+
+  /* Layout alignment */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-width: 100%;
 }
 .btn-whatsapp:hover {
   background-color: #1eb957;
